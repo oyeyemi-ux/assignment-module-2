@@ -1,0 +1,213 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  font-size: 16px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.container {
+  margin-top: 50px;
+
+}
+
+p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 40px;
+}
+
+.chicken h4 {
+  background-color: #d88b99;
+  left: 0px;
+}
+
+.beef h4 {
+  background-color: #cf5d5a;
+  left: 0px;
+}
+
+.sushi h4 {
+  background-color: #d8bc80;
+  left: 0px;
+}
+
+h4 {
+  text-transform: capitalize;
+  width: 100px;
+  padding: 2px 4px;
+  text-align: center; 
+  border: 2px solid black;
+  margin: 0px;
+  float: right;
+  position: relative;
+  top: -2px;
+  left: -2px;
+
+}
+.chicken, .beef, .sushi{
+  background-color: #979696; 
+  border: 2px solid black;
+  margin: 20px;
+}
+
+
+
+@media (min-width: 992px) {
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+
+}
+
+p {
+  padding: 10px;
+  margin-top: 25px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 40px;
+}
+
+.chicken h4 {
+  background-color: #d88b99;
+  left: 0px;
+}
+
+.beef h4 {
+  background-color: #cf5d5a;
+  left: 0px;
+}
+
+.sushi h4 {
+  background-color: #d8bc80;
+  left: 0px;
+}
+
+h4 {
+  text-transform: capitalize;
+  width: 100px;
+  padding: 2px 4px;
+  text-align: center; 
+  border: 2px solid black;
+  margin: 0px;
+  float: right;
+  position: relative;
+  top: -2px;
+  left: -2px;
+
+
+}
+.chicken{
+  background-color: #979696; 
+  width: 33.33%;
+  border: 2px solid black;
+  margin: 0px 10px 0px 20px;
+}
+
+.beef{
+  background-color: #979696; 
+  width: 33.33%;
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+}
+
+.sushi{
+  background-color: #979696; 
+  width: 33.33%;
+  margin: 0px 20px 0px 10px;
+  border: 2px solid black;
+}
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    margin-top: 50px;
+    box-sizing: border-box;
+  
+  }
+  
+  p {
+    padding: 10px;
+    margin-top: 25px;
+  }
+  
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 40px;
+  }
+  
+  .chicken h4 {
+    background-color: #d88b99;
+    left: 0px;
+  }
+  
+  .beef h4 {
+    background-color: #cf5d5a;
+    left: 0px;
+  }
+  
+  .sushi h4 {
+    background-color: #d8bc80;
+    left: 0px;
+  }
+  
+  h4 {
+    text-transform: capitalize;
+    width: 100px;
+    padding: 2px 4px;
+    text-align: center; 
+    border: 2px solid black;
+    margin: 0px;
+    float: right;
+    position: relative;
+    top: -2px;
+    left: -2px;
+
+  
+  }
+  .chicken {
+    background-color: #979696; 
+    width: 45%;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+   
+  .beef{ 
+      background-color: #979696; 
+      width: 45%;
+      border: 2px solid black;
+      margin: 10px;
+      display: inline-block;
+     
+
+  
+  }
+  
+  .sushi{
+    background-color: #979696; 
+    width: 95%;
+    margin-left:  auto;
+    margin-right: auto;
+    border: 2px solid black;
+  
+  }
+  
+  }
+  
+  
